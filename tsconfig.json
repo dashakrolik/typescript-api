@@ -16,12 +16,7 @@
     "outDir": "target/",
     "rootDir": "src/"
   },
-  "include": [
-      "src/index.ts"
-  ],
-  "exclude": [
-      "node_modules",
-      "**/*.spec.ts"
-  ],
+  "include": ["src/index.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
   "compileOnSave": true
 }
